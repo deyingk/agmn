@@ -1,0 +1,6 @@
+# ignore data folders
+data
+
+# ignore checkpoint folders
+checkpoint
+checkpoint_new

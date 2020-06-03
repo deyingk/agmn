@@ -1,0 +1,9 @@
+train.py: train cpm models
+          Usage: python train.py config.json
+                 config.json should be under the folder ./configs
+
+train_unet.py: train unet for handmasks
+
+evaluate_gdtt_gm.py: Use pretrained cpm model and Groundtruth GM, get predictions for the validation dataset.
+		     Usage: python evaluation_gdtt_gm config_evaluate_gdtt_gm.json
+			    config.json should be under the folder ./configs

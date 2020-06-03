@@ -1,0 +1,24 @@
+{
+    "model_name": "AdaptiveGraphicalModelNetwork",
+    "unary_branch_dir": "../checkpoint/CMUPanopticHandDataset/UnaryBranch",
+    "data": {
+        "path": "../data/external/cmu_panoptic_hands/intermediate_1/",
+        "partition": "../data/external/cmu_panoptic_hands/intermediate_1/partition.json",
+        "all_labels": "../data/external/cmu_panoptic_hands/intermediate_1/labels.json"
+    },
+    "data_loader": {
+        "name": "CMUPanopticHandDataset",
+        "number_workers": 4,
+        "batch_size": 32
+    },
+    "num_epochs": 100,
+    "optimizer": {
+        "name": "Adam",
+        "param": {
+            "lr": 1e-04
+        }
+    },
+    "loss_fn": {
+        "name": "loss_mse_30"
+    }
+}

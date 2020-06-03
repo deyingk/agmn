@@ -1,0 +1,22 @@
+************** CMU panoptic dataset ************************
+
+# gdtt labels
+gdtt_label_file = '../data/external/cmu_panoptic_hands/intermediate_1/labels.json'
+
+# cpm baseline:
+pred_label_file = '../checkpoint/UnaryBranch/eval/04-16-20-12-55/test_set/pred_labels.json'
+
+# our agmn model:
+pred_label_file = '../checkpoint/CMUPanopticHandDataset_3/AdaptiveGraphicalNetworkV2/eval_joint_trained/04-22-10-59-24/test_set/pred_labels.json'
+
+
+************** Rovit multiview dataset (3w imgs) ************************
+
+# gdtt labels
+gdtt_label_file = '../data/external/rovit/intermediate_1/labels.json'
+# cpm baseline
+pred_label_file = '../checkpoint/ROVITHandDataset/UnaryBranch/eval/04-20-17-03-04/test_set/pred_labels.json'
+# our agmn model:
+pred_label_file = '../checkpoint/ROVITHandDataset/AdaptiveGraphicalNetworkV2/eval_joint_trained/04-24-00-00-45/test_set/pred_labels.json'
+
+

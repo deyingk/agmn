@@ -1,0 +1,2 @@
+python train_agmn.py rovit_agmn_mode_0.json
+python train_binary_branch.py rovit_binary_branch.json
